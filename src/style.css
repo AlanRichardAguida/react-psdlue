@@ -31,10 +31,6 @@ body {
   align-items: center;
 }
 
-h1, p {
-  font-family: Lato;
-}
-
 .list{
     background-color: #a5a5a5;
     padding: 10px;
