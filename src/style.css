@@ -18,11 +18,11 @@ h1, p {
 }
 
 .list{
-  background-color: #a5a5a5;
-  padding: 1px;
-  padding-bottom: 5px;
-  width: 768px;
-  margin: 0 auto;
+    background-color: #a5a5a5;
+    padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .select{
@@ -58,4 +58,14 @@ h1, p {
     border-color: #000;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
     padding: 6px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    width: 100%;
+  }
+
+  .alert-info {
+    flex-wrap: wrap;
+  }
 }
