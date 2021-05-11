@@ -41,9 +41,7 @@ class Index extends Component {
 
   render() {
     return (
-      <div>
           <Lista/>
-      </div>
     );
   }
 }
