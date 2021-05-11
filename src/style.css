@@ -132,8 +132,8 @@ body {
 
   .alert-info {
     flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
   }
 
   .alert-info span {
