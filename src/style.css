@@ -78,9 +78,14 @@ body {
 @media screen and (max-width: 768px) {
   .list {
     width: 100%;
+    margin: 0 20px;
   }
 
   .alert-info {
     flex-wrap: wrap;
+  }
+
+  .alert-info span {
+    width: 80%;
   }
 }
