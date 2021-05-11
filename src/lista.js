@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import Personagem from './personagem';
 
-class List extends Component {
+class Lista extends Component {
   constructor() {
     super();
     this.state = {
@@ -63,4 +63,4 @@ class List extends Component {
   }
 }
 
-export default List;
+export default Lista;
