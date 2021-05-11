@@ -140,4 +140,8 @@ body {
     width: 80%;
     margin-bottom: 8px;
   }
+
+  body {
+    display: inherit;
+  }
 }
