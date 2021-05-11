@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content:center;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .list{
@@ -83,9 +84,12 @@ body {
 
   .alert-info {
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
   }
 
   .alert-info span {
     width: 80%;
+    margin-bottom: 8px;
   }
 }
