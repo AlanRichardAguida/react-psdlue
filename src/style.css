@@ -140,7 +140,10 @@ body {
     width: 80%;
     margin-bottom: 8px;
   }
+}
 
+
+@media screen and (max-width: 465px) {
   body {
     display: inherit;
   }
